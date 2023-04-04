@@ -1,0 +1,24 @@
+{
+  "name": "defund-examples",
+  "version": "1.0.0",
+  "description": "An example of using DeFund sdk to operate funds",
+  "main": "dist/main.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --loader ts-node/esm --experimental-specifier-resolution=node --experimental-json-modules ./src/main.ts",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "Rex<rex.s.bit@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@defund-protocol/v1-sdk": "github:DeFund-protocol/v1-sdk",
+    "ethers": "^5.7.2"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.3"
+  }
+}

@@ -17,6 +17,7 @@ const swapParams = {
     "tokenOut": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48", // USDC Address on mainnet
     "amountIn": BigNumber.from('100000000000000000'), // 0.1 ETH
     "amountOut": BigNumber.from('1000000'), // 1 USDC
+    "slippage": 0.01, // 0.01%
     "useNative": true, // use ETH
     "expiration": Math.round(new Date().getTime() / 1000 + 10 * 60), // expires in 10 minutes
 }

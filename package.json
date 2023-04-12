@@ -13,7 +13,7 @@
   "author": "Rex<rex.s.bit@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "@defund-protocol/v1-sdk": "^0.2.0",
+    "@defund-protocol/v1-sdk": "^0.4.0",
     "ethers": "^5.7.2"
   },
   "devDependencies": {

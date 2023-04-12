@@ -1,14 +1,14 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@defund-protocol/v1-sdk': ^0.2.0
+  '@defund-protocol/v1-sdk': ^0.4.0
   '@types/node': ^18.15.11
   ethers: ^5.7.2
   ts-node: ^10.9.1
   typescript: ^5.0.3
 
 dependencies:
-  '@defund-protocol/v1-sdk': 0.2.0_hardhat@2.13.0
+  '@defund-protocol/v1-sdk': 0.4.2_hardhat@2.13.0
   ethers: 5.7.2
 
 devDependencies:
@@ -28,8 +28,8 @@ packages:
     resolution: {integrity: sha512-l2df2pVsMAsNnijjeoA07Nqeo2LRuNI1hAsnhKPq0HM4XP5nVGvjTcp8nZwiRm01Zn9ZBx0BPycWa55RRBFWgA==}
     dev: false
 
-  /@defund-protocol/v1-sdk/0.2.0_hardhat@2.13.0:
-    resolution: {integrity: sha512-tTVdifw0QFiWPI53+ulcpJEtEFjEBqhfYzkSewWw9Mjkh48chJcsfNRpdILCJfb9stjeJce33ZyQ15beQJ+iUQ==}
+  /@defund-protocol/v1-sdk/0.4.2_hardhat@2.13.0:
+    resolution: {integrity: sha512-tkBHgZvowk55rbJYOvC/cYUYzbgGaij8yWdXGdZVjyyGO8xbcdbY/SGueGdtfDaZ5AWKJxdlTmI5tLWKtv9y7A==}
     dependencies:
       '@defund-protocol/token-list': 1.2.0
       '@uniswap/v3-sdk': 3.9.0_hardhat@2.13.0
